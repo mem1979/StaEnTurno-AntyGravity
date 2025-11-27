@@ -1,0 +1,330 @@
+Quiero que generes un proyecto Android completo desde cero, llamado STAenTurno, utilizando Jetpack Compose + MVVM + Retrofit + StateFlow + Navigation, con una arquitectura modular, código limpio y siguiendo completamente las reglas y especificaciones funcionales + técnicas indicadas a continuación.
+
+Este proyecto debe integrarse al backend real existente, y por lo tanto debes respetar estrictamente todos los endpoints, headers y DTOs especificados.
+No inventes, modifiques ni agregues ningún endpoint adicional.
+
+🚀 1. OBJETIVO DEL PROYECTO
+
+Crear una aplicación Android para fichar asistencia laboral.
+El empleado inicia sesión, verifica su turno, ve si ya fichó ENTRADA hoy y registra asistencia enviando ubicación real desde el dispositivo.
+
+🚀 2. TECNOLOGÍAS OBLIGATORIAS
+ANDROID
+
+Kotlin
+
+Jetpack Compose
+
+Navigation Compose
+
+MVVM
+
+StateFlow
+
+Retrofit + OkHttp
+
+GsonConverterFactory
+
+SharedPreferences (PrefsManager)
+
+Coroutines
+
+Material3
+
+FusedLocationProviderClient
+
+ARQUITECTURA
+
+Estructura obligatoria:
+
+com.sta.staenturno
+ ├── data
+ │    ├── local
+ │    ├── model
+ │    ├── remote
+ │
+ ├── ui
+ │    ├── login
+ │    ├── home
+ │    ├── changePassword
+ │    └── components
+ │
+ ├── util
+ ├── MainActivity.kt
+ └── STAApplication.kt
+
+🚀 3. BACKEND – DEFINICIÓN OFICIAL (OBLIGATORIA)
+
+Base URL (NO cambiar):
+
+http://10.0.2.2:8080/biometric/api/
+
+✔ /auth/login
+
+POST – x-www-form-urlencoded + Header X-Device-ID
+
+Params:
+
+usuario
+
+contrasena
+Header obligatorio:
+
+X-Device-ID
+
+Response:
+
+{
+  "token": "jwt",
+  "usuario": "MMosquera@A1",
+  "deviceId": "xxxx",
+  "passwordDefault": false
+}
+
+✔ /auth/me
+
+GET – requiere Authorization
+
+Response:
+
+{
+  "usuario": "MMosquera@A1",
+  "turnoActivoHoy": "TM.01 / MIE / 07:00 a 16:00",
+  "nombreCompleto": "Mosquera, Marcelo"
+}
+
+✔ /asistencia/hoy
+
+GET – requiere Authorization
+
+Response:
+
+{
+  "fecha": "2024-02-01",
+  "yaFichoEntrada": true,
+  "horaEntrada": "08:03"
+}
+
+✔ /asistencia
+
+POST – JSON + Headers obligatorios
+
+Headers:
+
+Authorization: Bearer XXX
+
+X-Device-ID: <deviceId>
+
+Body:
+
+{
+  "descripcionTipo": null,
+  "tipoMovimiento": null,
+  "ubicacion": "-34.68,-58.36"
+}
+
+
+Response:
+
+{
+  "estado": "ok",
+  "fecha": "2024-02-01",
+  "hora": "08:03",
+  "tipo": "ENTRADA",
+  "mensaje": "Se registró correctamente el INICIO de la jornada.",
+  "nombreCompleto": "Mosquera, Marcelo",
+  "turnoActivoHoy": "Turno mañana"
+}
+
+✔ /auth/cambiarClave
+
+POST – Authorization + form param nueva
+
+{
+  "success": true
+}
+
+🚀 4. REGLAS DE NEGOCIO (OBLIGATORIAS)
+🔸 DeviceId
+
+Generado una sola vez por el dispositivo
+
+Obligatorio para /auth/login y /asistencia
+
+Si no coincide → manejar HTTP 401 “Dispositivo no autorizado”
+
+🔸 Ubicación
+
+Obligatorio para registrar asistencia
+
+Usar FusedLocationProviderClient
+
+Si no hay permisos → mostrar mensaje y pedirlos
+
+Sin ubicación → NO llamar al backend
+
+🔸 Fichadas
+
+El backend deduce tipoMovimiento automáticamente.
+La app solo envía ubicacion.
+
+🔸 Seguridad
+
+Guardar token en SharedPreferences
+
+Todas las requests deben incluir Authorization
+
+🚀 5. PANTALLAS A GENERAR
+✔ LOGIN
+
+usuario + contraseña
+
+obtiene deviceId con DeviceIdProvider
+
+llama POST /auth/login
+
+si passwordDefault = true → navegar a ChangePassword
+
+si login ok → ir a Home
+
+✔ CAMBIAR CONTRASEÑA
+
+campo nueva contraseña
+
+mínimo 8 chars
+
+llama POST /auth/cambiarClave
+
+si OK → ir a Home
+
+✔ HOME
+
+Debe mostrar:
+
+Empleado: <nombreCompleto>
+Turno: <turnoActivoHoy>
+Entrada registrada: <horaEntrada> (si existe)
+Último movimiento: tipo - hora
+Mensaje del backend
+
+
+Botón grande:
+
+Registrar asistencia
+
+
+Al presionar:
+
+Verificar permisos ubicación
+
+Obtener lat,long reales
+
+Enviar a POST /asistencia
+
+Mostrar LoadingDialog
+
+Actualizar UI con respuesta
+
+🚀 6. COMPONENTES UTILITARIOS
+
+Generar:
+
+DeviceIdProvider
+
+Usa ANDROID_ID
+
+Retorna deviceId único y persistente
+
+LocationProvider
+
+Usa FusedLocationProviderClient
+
+Métodos:
+
+hasLocationPermission()
+
+getCurrentLocation(): Pair<Double,Double>?
+
+LoadingDialog
+
+Modal simple animado Material3
+
+🚀 7. ViewModels – Reglas obligatorias
+LoginViewModel
+
+login(usuario,contraseña,deviceId)
+
+guarda token en PrefsManager
+
+expone loading/error/state
+
+HomeViewModel
+
+cargarHome() → llama /auth/me + /asistencia/hoy
+
+registrarAsistencia(deviceId, ubicacion)
+
+manejar todos los errores HTTP e IO
+
+exponer HomeState con todos los campos:
+
+loading
+error
+nombreCompleto
+turnoActivoHoy
+yaFichoEntrada
+horaEntrada
+mensaje
+tipo
+hora
+
+🚀 8. NAVEGACIÓN
+
+Gráfico requerido:
+
+Login → ChangePassword → Home
+
+
+Rutas:
+
+login
+change_password
+home
+
+🚀 9. QUE DEBE GENERAR GOOGLE ANTIGRAVITY
+✔ TODO el proyecto Android completo
+
+Incluyendo:
+
+build.gradle raiz
+
+build.gradle módulo app
+
+AndroidManifest
+
+Estructura de paquetes
+
+Todos los ViewModel
+
+Todas las pantallas
+
+Todos los DTO
+
+Retrofit + Servicios
+
+Providers de deviceId y ubicación
+
+PrefsManager
+
+Navigation Graph
+
+MainActivity con Compose
+
+Diseño responsivo Material3
+
+✔ Código final 100% listo para compilar
+✔ Ningún TODO
+✔ Ningún método sin implementar
+✔ Ninguna dependencia faltante
+✔ Sin inventar endpoints
+✔ Todo debe corresponder EXACTAMENTE al backend ya definido
