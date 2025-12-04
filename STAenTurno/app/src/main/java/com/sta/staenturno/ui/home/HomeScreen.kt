@@ -120,13 +120,7 @@ fun HomeScreen() {
                 Spacer(modifier = Modifier.width(12.dp))
                 Text(
                     text = "STAenTurno",
-                    style = MaterialTheme.typography.headlineMedium.copy(
-                        shadow = androidx.compose.ui.graphics.Shadow(
-                            color = Color.Black.copy(alpha = 0.25f),
-                            offset = androidx.compose.ui.geometry.Offset(2f, 2f),
-                            blurRadius = 4f
-                        )
-                    ),
+                    style = MaterialTheme.typography.headlineMedium,
                     fontWeight = FontWeight.Bold,
                     color = Color.White
                 )
@@ -344,17 +338,7 @@ fun Button3D(
             .fillMaxWidth()
             .height(64.dp)
     ) {
-        // Shadow/Depth layer (bottom darker part)
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .height(64.dp)
-                .offset(y = 4.dp)
-                .background(
-                    color = backgroundColor.copy(alpha = 0.4f),
-                    shape = RoundedCornerShape(32.dp)
-                )
-        )
+
 
         // Main button with gradient
         Box(
@@ -390,9 +374,16 @@ fun Button3D(
             ) {
                 Text(
                     text = text,
-                    fontSize = 16.sp,
+                    fontSize = 18.sp,
                     fontWeight = FontWeight.Bold,
-                    color = if (enabled) Color.White else Color.White.copy(alpha = 0.5f)
+                    color = if (enabled) Color.White else Color.White.copy(alpha = 0.5f),
+                    style = MaterialTheme.typography.labelLarge.copy(
+                        shadow = androidx.compose.ui.graphics.Shadow(
+                            color = Color.Black.copy(alpha = 0.2f),
+                            offset = androidx.compose.ui.geometry.Offset(1f, 1f),
+                            blurRadius = 2f
+                        )
+                    )
                 )
                 
                 // Circular icon on the right

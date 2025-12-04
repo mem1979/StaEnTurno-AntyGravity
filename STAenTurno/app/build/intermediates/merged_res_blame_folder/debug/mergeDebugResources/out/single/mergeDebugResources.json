@@ -1,162 +1,118 @@
 [
     {
-        "merged": "com.sta.staenturno.app-debug-60:/mipmap-xxhdpi_icon.webp.flat",
-        "source": "com.sta.staenturno.app-main-62:/mipmap-xxhdpi/icon.webp"
+        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-debug-60:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-main-62:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.sta.staenturno.app-debug-60:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.sta.staenturno.app-main-62:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-debug-60:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-main-62:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.sta.staenturno.app-debug-60:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.sta.staenturno.app-main-62:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-debug-60:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-main-62:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-debug-60:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-main-62:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-debug-60:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-main-62:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-debug-60:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-main-62:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-debug-60:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-main-62:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-debug-60:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-main-62:\\drawable\\ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-debug-60:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-main-62:\\mipmap-mdpi\\ic_launcher_foreground.webp"
-    },
-    {
-        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-debug-60:\\drawable_app_icon.png.flat",
-        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-main-62:\\drawable\\app_icon.png"
-    },
-    {
-        "merged": "com.sta.staenturno.app-debug-60:/mipmap-xhdpi_icon.webp.flat",
-        "source": "com.sta.staenturno.app-main-62:/mipmap-xhdpi/icon.webp"
-    },
-    {
-        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-debug-60:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-main-62:\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "com.sta.staenturno.app-debug-60:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.sta.staenturno.app-main-62:/mipmap-hdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-debug-60:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-main-62:\\mipmap-hdpi\\ic_launcher_foreground.webp"
-    },
-    {
-        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-debug-60:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-main-62:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-debug-60:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-main-62:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
     },
     {
         "merged": "com.sta.staenturno.app-debug-60:/drawable_app_icon.png.flat",
         "source": "com.sta.staenturno.app-main-62:/drawable/app_icon.png"
     },
     {
-        "merged": "com.sta.staenturno.app-debug-60:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.sta.staenturno.app-main-62:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-debug-60:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-main-62:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-debug-60:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-main-62:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-debug-60:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-main-62:\\mipmap-hdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.sta.staenturno.app-debug-60:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.sta.staenturno.app-main-62:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-debug-60:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-main-62:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-debug-60:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-main-62:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-debug-60:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-main-62:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-debug-60:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-main-62:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-debug-60:\\mipmap-xxhdpi_icon.webp.flat",
+        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-main-62:\\mipmap-xxhdpi\\icon.webp"
     },
     {
-        "merged": "com.sta.staenturno.app-debug-60:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.sta.staenturno.app-main-62:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-debug-60:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-main-62:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.sta.staenturno.app-debug-60:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.sta.staenturno.app-main-62:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-debug-60:\\mipmap-xhdpi_icon.webp.flat",
+        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-main-62:\\mipmap-xhdpi\\icon.webp"
     },
     {
-        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-debug-60:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-main-62:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-debug-60:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-main-62:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.sta.staenturno.app-debug-60:/mipmap-hdpi_icon.webp.flat",
-        "source": "com.sta.staenturno.app-main-62:/mipmap-hdpi/icon.webp"
+        "merged": "com.sta.staenturno.app-debug-60:/drawable_app_icon_pantalla.png.flat",
+        "source": "com.sta.staenturno.app-main-62:/drawable/app_icon_pantalla.png"
     },
     {
-        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-debug-60:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-main-62:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-debug-60:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-main-62:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.sta.staenturno.app-debug-60:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.sta.staenturno.app-main-62:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-debug-60:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-main-62:\\mipmap-mdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-debug-60:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-main-62:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-debug-60:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-main-62:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-debug-60:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-main-62:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-debug-60:\\mipmap-xxxhdpi_icon.webp.flat",
+        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-main-62:\\mipmap-xxxhdpi\\icon.webp"
     },
     {
-        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-debug-60:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-main-62:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-debug-60:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-main-62:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-debug-60:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-main-62:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-debug-60:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-main-62:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-debug-60:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-main-62:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-debug-60:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-main-62:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.sta.staenturno.app-debug-60:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.sta.staenturno.app-main-62:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-debug-60:\\mipmap-mdpi_icon.webp.flat",
+        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-main-62:\\mipmap-mdpi\\icon.webp"
     },
     {
-        "merged": "com.sta.staenturno.app-debug-60:/mipmap-mdpi_icon.webp.flat",
-        "source": "com.sta.staenturno.app-main-62:/mipmap-mdpi/icon.webp"
+        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-debug-60:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-main-62:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.sta.staenturno.app-debug-60:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.sta.staenturno.app-main-62:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-debug-60:\\drawable_app_icon.png.flat",
+        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-main-62:\\drawable\\app_icon.png"
     },
     {
-        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-debug-60:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-main-62:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-debug-60:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-main-62:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.sta.staenturno.app-debug-60:/mipmap-xxxhdpi_icon.webp.flat",
-        "source": "com.sta.staenturno.app-main-62:/mipmap-xxxhdpi/icon.webp"
+        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-debug-60:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-main-62:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-debug-60:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-main-62:\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.sta.staenturno.app-debug-60:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.sta.staenturno.app-main-62:/mipmap-xhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.sta.staenturno.app-debug-60:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.sta.staenturno.app-main-62:/mipmap-xxxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-debug-60:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-main-62:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-debug-60:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.12\\com.sta.staenturno.app-main-62:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-debug-60:\\mipmap-hdpi_icon.webp.flat",
+        "source": "C:\\Users\\Soporte\\.gradle\\daemon\\8.11.1\\com.sta.staenturno.app-main-62:\\mipmap-hdpi\\icon.webp"
     }
 ]

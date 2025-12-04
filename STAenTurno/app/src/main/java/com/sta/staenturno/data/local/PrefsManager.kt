@@ -9,6 +9,7 @@ class PrefsManager(context: Context) {
     companion object {
         private const val KEY_TOKEN = "jwt_token"
         private const val KEY_DEVICE_ID = "device_id"
+        const val KEY_ATTENDANCE_STATE = "attendance_state"
     }
 
     fun saveToken(token: String) {
@@ -29,5 +30,13 @@ class PrefsManager(context: Context) {
 
     fun getDeviceId(): String? {
         return prefs.getString(KEY_DEVICE_ID, null)
+    }
+
+    fun saveString(key: String, value: String) {
+        prefs.edit().putString(key, value).commit()
+    }
+
+    fun getString(key: String): String? {
+        return prefs.getString(key, null)
     }
 }
