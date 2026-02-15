@@ -38,7 +38,9 @@ import com.sta.staenturno.util.DeviceIdProvider
 import com.sta.staenturno.util.LocationProvider
 
 @Composable
-fun HomeScreen() {
+fun HomeScreen(
+    onNavigateToSchedule: () -> Unit = {}
+) {
     val context = LocalContext.current
     val prefsManager = remember { PrefsManager(context) }
     val deviceIdProvider = remember { DeviceIdProvider(context, prefsManager) }
@@ -218,6 +220,26 @@ fun HomeScreen() {
                     icon = Icons.Default.Star,
                     text = uiState.descripcionFeriado ?: "Día feriado",
                     color = PastelOrange
+                )
+            }
+
+            // Weekly Schedule Button (Discreet)
+            TextButton(
+                onClick = onNavigateToSchedule,
+                enabled = !uiState.isLoading,
+                modifier = Modifier.align(Alignment.CenterHorizontally)
+            ) {
+                Icon(
+                    imageVector = Icons.Default.DateRange,
+                    contentDescription = null,
+                    tint = PastelPurple,
+                    modifier = Modifier.size(18.dp)
+                )
+                Spacer(modifier = Modifier.width(8.dp))
+                Text(
+                    text = "Ver mi agenda semanal",
+                    style = MaterialTheme.typography.labelLarge,
+                    color = PastelPurple
                 )
             }
 

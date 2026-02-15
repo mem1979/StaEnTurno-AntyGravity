@@ -57,3 +57,25 @@ data class ChangePasswordRequest(
 data class ChangePasswordResponse(
     @SerializedName("success") val success: Boolean
 )
+
+data class WeekScheduleResponse(
+    @SerializedName("desde") val desde: String,
+    @SerializedName("hasta") val hasta: String,
+    @SerializedName("dias") val dias: Map<String, DaySchedule>
+)
+
+data class DaySchedule(
+    @SerializedName("laboral") val laboral: Boolean,
+    @SerializedName("descripcion") val descripcion: String? = null, // Deprecated, use turnos
+    @SerializedName("turnos") val turnos: List<ShiftDetail> = emptyList()
+)
+
+data class ShiftDetail(
+    @SerializedName("nombre") val nombre: String = "",
+    @SerializedName("descripcion") val descripcion: String,
+    @SerializedName("horaInicio") val horaInicio: String,
+    @SerializedName("horaFin") val horaFin: String,
+    @SerializedName("tipo") val tipo: String = "NORMAL",
+    @SerializedName("toleranciaMinutos") val toleranciaMinutos: Int = 0,
+    @SerializedName("bonificacionPorcentaje") val bonificacionPorcentaje: Double = 0.0
+)

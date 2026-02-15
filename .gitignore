@@ -1,0 +1,42 @@
+# Android
+*.hprof
+*.log
+.gradle/
+.idea/
+local.properties
+build/
+captures/
+.externalNativeBuild
+.cxx
+*.apk
+*.ap_
+output.json
+
+# IntelliJ
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+
+# Gradle
+.gradle
+build/
+
+# Local configuration
+local.properties
+
+# Specific to this project structure
+STAenTurno/build/
+STAenTurno/.gradle/
+STAenTurno/local.properties

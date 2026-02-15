@@ -53,7 +53,19 @@ class MainActivity : AppCompatActivity() {
                         }
                         
                         composable("home") {
-                            HomeScreen()
+                            HomeScreen(
+                                onNavigateToSchedule = {
+                                    navController.navigate("schedule")
+                                }
+                            )
+                        }
+
+                        composable("schedule") {
+                            com.sta.staenturno.ui.schedule.WeekScheduleScreen(
+                                onBackClick = {
+                                    navController.popBackStack()
+                                }
+                            )
                         }
                     }
                 }

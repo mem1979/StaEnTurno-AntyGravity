@@ -42,4 +42,9 @@ interface StaApiService {
         @Header("Authorization") token: String,
         @Field("nueva") nueva: String
     ): Response<ChangePasswordResponse>
+
+    @GET("turno/semana")
+    suspend fun getWeekSchedule(
+        @Header("Authorization") token: String
+    ): Response<WeekScheduleResponse>
 }
