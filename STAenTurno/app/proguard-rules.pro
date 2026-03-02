@@ -83,3 +83,9 @@
 -keep class androidx.compose.runtime.** { *; }
 -keep class androidx.compose.material.** { *; }
 -keep class androidx.biometric.** { *; }
+
+# Keep UI States and ViewModels to avoid issues with StateFlow/LiveCycle in Release
+-keep class com.sta.staenturno.ui.login.** { *; }
+-keep class com.sta.staenturno.ui.home.** { *; }
+-keep class com.sta.staenturno.ui.schedule.** { *; }
+-keep class com.sta.staenturno.ui.changePassword.** { *; }

@@ -53,7 +53,6 @@ com.sta.staenturno.app-jetified-play-services-basement-18.1.0-51 C:\Users\Soport
 com.sta.staenturno.app-resValues-52 C:\Users\Soporte\Desktop\StaEnTurno-AntyGravity\STAenTurno\app\build\generated\res\resValues\release
 com.sta.staenturno.app-packageReleaseResources-53 C:\Users\Soporte\Desktop\StaEnTurno-AntyGravity\STAenTurno\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
 com.sta.staenturno.app-packageReleaseResources-54 C:\Users\Soporte\Desktop\StaEnTurno-AntyGravity\STAenTurno\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
-com.sta.staenturno.app-merged-not-compiled-resources-55 C:\Users\Soporte\Desktop\StaEnTurno-AntyGravity\STAenTurno\app\build\intermediates\merged-not-compiled-resources\release
-com.sta.staenturno.app-release-56 C:\Users\Soporte\Desktop\StaEnTurno-AntyGravity\STAenTurno\app\build\intermediates\merged_res\release\mergeReleaseResources
-com.sta.staenturno.app-main-57 C:\Users\Soporte\Desktop\StaEnTurno-AntyGravity\STAenTurno\app\src\main\res
-com.sta.staenturno.app-release-58 C:\Users\Soporte\Desktop\StaEnTurno-AntyGravity\STAenTurno\app\src\release\res
+com.sta.staenturno.app-release-55 C:\Users\Soporte\Desktop\StaEnTurno-AntyGravity\STAenTurno\app\build\intermediates\merged_res\release\mergeReleaseResources
+com.sta.staenturno.app-main-56 C:\Users\Soporte\Desktop\StaEnTurno-AntyGravity\STAenTurno\app\src\main\res
+com.sta.staenturno.app-release-57 C:\Users\Soporte\Desktop\StaEnTurno-AntyGravity\STAenTurno\app\src\release\res

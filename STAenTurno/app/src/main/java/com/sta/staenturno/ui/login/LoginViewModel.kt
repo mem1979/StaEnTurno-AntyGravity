@@ -58,8 +58,10 @@ class LoginViewModel(
                 }
             } catch (e: IOException) {
                 _uiState.value = _uiState.value.copy(isLoading = false, error = "Error de conexión. Verifique su internet.")
-            } catch (e: Exception) {
-                _uiState.value = _uiState.value.copy(isLoading = false, error = "Error desconocido: ${e.message}")
+            } catch (t: Throwable) {
+                // Catch Throwable to handle NoClassDefFoundError (ProGuard) and others
+                val msg = t.message ?: t.toString()
+                _uiState.value = _uiState.value.copy(isLoading = false, error = "Error critico: $msg")
             }
         }
     }
