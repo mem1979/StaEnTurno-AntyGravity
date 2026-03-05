@@ -1,5 +1,6 @@
 package com.sta.staenturno.ui.login
 
+import android.view.autofill.AutofillManager
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.animation.core.*
@@ -83,6 +84,7 @@ fun LoginScreen(
     onMustChangePassword: () -> Unit
 ) {
     val context = LocalContext.current
+    val autofillManager = context.getSystemService(AutofillManager::class.java)
     val prefsManager = remember { PrefsManager(context) }
     val deviceIdProvider = remember { DeviceIdProvider(context, prefsManager) }
     val viewModel: LoginViewModel = viewModel(
@@ -107,6 +109,10 @@ fun LoginScreen(
     // ── BLOQUEANTE: si el login es exitoso, se pide biometría antes de navegar ──
     LaunchedEffect(uiState.isSuccess) {
         if (uiState.isSuccess) {
+            // Notificar al Autofill Framework que el login fue exitoso.
+            // Esto dispara el diálogo "¿Guardar contraseña?" de Google/Android.
+            autofillManager?.commit()
+
             biometricPromptManager.showBiometricPrompt(
                 title = "Verificación Biométrica",
                 description = "Confirme su identidad para continuar"
